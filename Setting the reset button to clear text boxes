@@ -1,0 +1,194 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Credit_Counter
+{
+    public partial class Form_CreditCounter : Form
+    {
+        public Form_CreditCounter()
+        {
+            InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit.
+
+            int hold_number = Convert.ToString(MouseClick += label_2pound.OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_2pound.MouseClick += int(hold_number = label_2pound + "1")) ;        // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0. 
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_0_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_2p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_2p,OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_2p.MouseClick += int(hold_number = label_2p + "1")) ;        // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+
+        }
+
+        private void pictureBox_10p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_10p.OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_10p.MouseClick += int(hold_number = label_10p + "1")) ;      // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+
+        }
+
+        private void pictureBox_20p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_20p.OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_20p.MouseClick += int(hold_number = label_20p + "1")) ;      // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+
+        }
+
+        private void textBox_costpc_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+        }
+
+        private void pictureBox_1p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+        
+        
+            int hold_number = Convert.ToString(MouseClick += label_1p .OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_1p.MouseClick += int(hold_number = label_1p + "1")) ;        // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+        
+        }
+
+       	private void btn_reset_Click(object sender, EventArgs e)
+        {
+            
+	          foreach (Control field in Controls)		//For every field on the form controls such as text boxes. 
+            {
+                if (field is TextBox)		//IF the field is a text box.
+                    ((TextBox)field).Clear();		//Clear the text box field of any data. 
+                
+            }
+
+        }
+
+        private void groupBox_coins_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_5p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_5p.OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_5p.MouseClick += int(hold_number = label_5p + "1")) ;        // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+
+        }
+
+        private void pictureBox_50p_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_50p.OnClick);
+            hold_number = 0;        // Converting the int to a string. 
+
+            if (pictureBox_50p.MouseClick += int(hold_number = label_50p + "1")) ;      // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+        }
+
+        private void pictureBox_1pound_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox_costpc.Text.Trim('0')))
+                MessageBox.Show("Set The Cost Per Credit");     //when the coin is clicked there must be a value for cost per credit
+
+            int hold_number = Convert.ToString(MouseClick += label_1pound.OnClick);
+            hold_number = 0;        // Converting the int to a string.
+
+            if (pictureBox_1pound.MouseClick += int(hold_number = label_1pound + "1")) ;        // When coin is clicked it increases the 0 vaue by 1.
+
+            else = 0;       // Otherwise, keeping the value at 0.
+
+	          String.Format("{0:n2}", Convert.ToDouble(textBox_pence.Text));			//Formatting the currency for the total value in pence text box. 
+        }
+
+        private void label_5p_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_2pound_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+
